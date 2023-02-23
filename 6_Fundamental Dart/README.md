@@ -10,7 +10,7 @@ Summary Fundamental Dart
     - Variabel digunakan untuk menyimpan data yang memiliki nama dan tipe data.
     - Konstanta digunakan untuk menyimpan data seperti variabel, namun nilai pada konstanta tidak dapat diubah.
     - Setiap veriabel memiliki tipe data. 
-    Tipe Data terdiri dari :
+    Tipe data terdiri dari :
         - Int adalah tipe data untuk bilangan bulat.
         - Double adalah tipe data bilangan pecahan.
         - Num adalah tipe data yang dapat menyimpan bilangan bulat maupun bilangan pecahan
@@ -20,8 +20,8 @@ Summary Fundamental Dart
         - List adalah tipe data untuk menginisialisasi sebuah list
 
 3. Operator
-    Digunakan untuk mengolah data. Operator terdiri dari :
-        - Operator Aritmatika adalah operator untuk mengolah data secara matematis. Contohnya antara lain adalah penjumlahan(+), pengurangan(-), perkalian(*), pembagian(/), dan modulo/sisa pembagian(%)
-        - Operator Assignment adalah operator untuk memberi nilai pada variabel. Contohnya antara lain adalah =,+=,*=,/=,%=
-        - Operator Perbandingan adalah operator untuk membandingkan suatu nilai pada variabel. Contoh perbandingan adalah sama dengan(==), kurang dari(<), kurang dari sama dengan(<=), lebih dari(>), lebih dari sama dengan(>=), tidak sama dengan(!=)
-        - Operator Logika adalah operator untuk menggabungkan beberapa kondisi. Contohnya antara lain adalah AND(&&), OR(||), NOT(!)
+Digunakan untuk mengolah data. Operator terdiri dari :
+            - Operator Aritmatika adalah operator untuk mengolah data secara matematis. Contohnya antara lain adalah penjumlahan(+), pengurangan(-), perkalian(*), pembagian(/), dan modulo/sisa pembagian(%)
+            - Operator Assignment adalah operator untuk memberi nilai pada variabel. Contohnya antara lain adalah =,+=,*=,/=,%=
+            - Operator Perbandingan adalah operator untuk membandingkan suatu nilai pada variabel. Contoh perbandingan adalah sama dengan(==), kurang dari(<), kurang dari sama dengan(<=), lebih dari(>), lebih dari sama dengan(>=), tidak sama dengan(!=)
+            - Operator Logika adalah operator untuk menggabungkan beberapa kondisi. Contohnya antara lain adalah AND(&&), OR(||), NOT(!)
