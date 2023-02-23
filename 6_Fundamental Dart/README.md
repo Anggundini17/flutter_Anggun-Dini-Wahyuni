@@ -19,7 +19,7 @@ Summary Fundamental Dart
         - List adalah tipe data untuk menginisialisasi sebuah list
 
 3. Operator
-    Digunakan untuk mengolah data. Operator terdiri dari :
+    - Digunakan untuk mengolah data. Operator terdiri dari :
         - Operator Aritmatika adalah operator untuk mengolah data secara matematis. Contohnya antara lain adalah :
         penjumlahan(+), pengurangan(-), perkalian(*), pembagian(/), dan modulo/sisa pembagian(%)
         - Operator Assignment adalah operator untuk memberi nilai pada variabel. Contohnya antara lain adalah : =,+=,*=,/=,%=
