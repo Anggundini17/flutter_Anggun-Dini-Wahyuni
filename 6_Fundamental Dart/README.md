@@ -9,7 +9,8 @@ Summary Fundamental Dart
 2. Variabel, Konstanta dan Tipe Data
     - Variabel digunakan untuk menyimpan data yang memiliki nama dan tipe data.
     - Konstanta digunakan untuk menyimpan data seperti variabel, namun nilai pada konstanta tidak dapat diubah.
-    - Setiap veriabel memiliki tipe data. Tipe Data terdiri dari :
+    - Setiap veriabel memiliki tipe data.
+    Tipe data terdiri dari :
         - Int adalah tipe data untuk bilangan bulat.
         - Double adalah tipe data bilangan pecahan.
         - Num adalah tipe data yang dapat menyimpan bilangan bulat maupun bilangan pecahan
@@ -19,7 +20,7 @@ Summary Fundamental Dart
         - List adalah tipe data untuk menginisialisasi sebuah list
 
 3. Operator
-    - Digunakan untuk mengolah data. Operator terdiri dari :
+    Digunakan untuk mengolah data. Operator terdiri dari :
         - Operator Aritmatika adalah operator untuk mengolah data secara matematis. Contohnya antara lain adalah :
         penjumlahan(+), pengurangan(-), perkalian(*), pembagian(/), dan modulo/sisa pembagian(%)
         - Operator Assignment adalah operator untuk memberi nilai pada variabel. Contohnya antara lain adalah : =,+=,*=,/=,%=
