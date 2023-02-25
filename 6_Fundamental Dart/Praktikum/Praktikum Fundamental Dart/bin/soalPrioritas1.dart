@@ -33,8 +33,8 @@ void persegiPanjang(int p, int l) {
 
 void lingkaran(num j) {
   const pi = 3.14;
-  num luas = 2 * pi * j;
-  num keliling = pow(j, 2);
+  num luas = pi * pow(j, 2);
+  num keliling = 2 * pi * j;
 
   print(
       'LINGKARAN\nDiketahui lingkaran memiliki jari - jari sebesar $j cm.\nMaka, Luas dan Kelilingnya adalah ');
