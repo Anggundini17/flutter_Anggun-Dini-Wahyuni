@@ -1,15 +1,19 @@
 Summary Flutter Navigation
 
-- Navigasi Flutter adalah cara untuk berpindah dari layar ke layar dalam aplikasi Flutter. Flutter menawarkan berbagai jenis navigasi termasuk navigasi halaman, navigasi subtab, dan navigasi kotak.
+1. Navigation
+    - Navigation digunakan untuk berpindah dari satu halaman ke halaman lainnya.
 
-Ada dua cara untuk menavigasi Flutter:
+2. Basic Navigation
+    - Untuk menggunakan navigation secara dasar adalah menggunakan NavigationMaterialRoute yang digunakan saat menuju ke suatu halaman.
+    - Untuk perpindahan halaman menggunakan Navigator.push(context,
+                  MaterialPageRoute(
+                    builder: (context) => NamaHalaman(),
+                  ),).
+    - Untuk kembali ke halaman sebelumnya Navigator.pop().
 
-1. Navigasi dengan menekan "push" dan "pop"
-Dengan jenis navigasi ini, saat pengguna menekan tombol navigasi, layar baru akan ditambahkan di atas layar sebelumnya. Saat pengguna menekan tombol kembali, layar terakhir dihapus dari tumpukan dan pengguna kembali ke layar sebelumnya.
-
-2. Navigasi dengan Replace
-Dengan jenis navigasi ini, saat pengguna menekan tombol navigasi, layar sebelumnya langsung tergantikan oleh layar baru. Jenis navigasi ini tidak memiliki tumpukan layar seperti jenis navigasi pertama.
-
-Navigasi Flutter juga menawarkan fitur untuk mengirim data antar layar. Informasi ini dapat digunakan untuk mengirim data atau status antar layar, memungkinkan informasi dari layar sebelumnya digunakan oleh layar yang sedang aktif.
-
-Navigasi Flutter juga memiliki fitur konfigurasi tata letak layar. Anda dapat menentukan tata letak apa yang akan digunakan layar berikutnya, serta animasi yang akan diputar saat pengguna berpindah dari satu layar ke layar lainnya. Secara keseluruhan, Navigasi Flutter adalah fitur yang sangat penting dalam pengembangan Flutter karena memungkinkan aplikasi memiliki fitur yang jauh lebih dinamis dan interaktif karena pengguna dapat dengan mudah beralih dari satu layar ke layar lainnya.
+3. Navigation dengan Names Routes
+    - Memiliki route pada setiap halaman.
+    - Saat perpindahan halaman menggunakan Navigator.pushNamed().
+    - Saat kembali ke halaman sebelumnya menggunakan Navigator.pop().
+    - Cara menggunakan route adalah dengan mendaftarkan route dengan menambahkan initialRoute dan routes pada MaterialApp. Setiap route berfungsi untuk membentuk halaman.
+    - Untuk mengirimkan data ke halaman baru menggunakan arguments.
